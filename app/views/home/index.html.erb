@@ -1,0 +1,16 @@
+<h1>Search for a movie</h1>
+
+<%= form_tag("/search", method: :get) do  %>
+   <%= text_field_tag :query, nil %>
+   <%= button_tag(type="submit" )  %>
+<% end %>
+
+<h1>Popularne filmy</h1>
+
+<% @now_playing.first(10).each do |movie| %>
+  <% if movie %>
+     <%= link_to movie_path(movie['id']) do %>
+       <%= movie_poster movie['poster_path'] %>
+     <% end %>
+  <% end %>
+<% end %>

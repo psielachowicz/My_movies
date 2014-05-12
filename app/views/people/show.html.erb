@@ -1,0 +1,18 @@
+<h1>Dane osoby <%= @osoba.name  %></h1>
+<%= movie_poster @osoba.profile_path  %>
+<h2>Miejsce urodzenia:</h2>
+<%= @osoba.place_of_birth  %>
+<h2>Data urodzin</h2>
+<%= @osoba.birthday  %>
+<% if @osoba.deathday.length>=2 %>
+<h2>Data śmierci</h2>
+<%= @osoba.deathday %>
+<% end %>
+<% if @osoba.homepage.length>=2 %>
+<h2>Strona internetowa:</h2> 
+<%= link_to @osoba.homepage, @osoba.homepage %>
+<% end %>
+
+
+ 
+
