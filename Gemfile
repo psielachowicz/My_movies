@@ -37,4 +37,9 @@ gem 'awesome_print'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'strftime'
+gem 'shelly'
+gem 'pg'
+group :production do
+  gem 'shelly-dependencies'
+end
 
