@@ -3,6 +3,8 @@ Link do Heroku:
 
 Travis:
 
+https://travis-ci.org/psielachowicz/My_movies.svg?branch=master
+
 - dodane testy kontrolerów (40) oraz widoków (10)
 - poprawki w wyświetlanym filmie: 
 przykładowo: jeśli budżet wynosi 000 lub nie został uzupełniony to nie jest wyświetlany
@@ -14,4 +16,7 @@ Dlaczego aplikacja znajduje się na heroku a nie na shelly cloud?
 "Shelly Cloud virtual servers run on Linux distribution and require
  all gems installed to be Linux compatible.
  (...) Due to the above, shelly gem was not implemented with Windows in mind."
+ 
+ 
+ 
  
