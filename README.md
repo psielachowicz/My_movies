@@ -3,7 +3,7 @@ Link do Heroku:
 
 Travis:
 
-https://travis-ci.org/psielachowicz/My_movies.svg?branch=master
+[![Build Status](https://travis-ci.org/psielachowicz/My_movies.svg?branch=master)
 
 - dodane testy kontrolerów (40) oraz widoków (10)
 - poprawki w wyświetlanym filmie: 
