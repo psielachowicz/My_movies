@@ -84,9 +84,9 @@ before do
   ##it "na temat" do
    #@movie.title.should have_at_most(15).characters
   #end 
-  it "im krocej, tym lepiej" do
-   @movie.homepage.should have_at_most(1).characters
-  end 
+  #it "im krocej, tym lepiej" do
+   #@movie.homepage.should have_at_most(1).characters
+  #end 
   it "Chateau Valons, rocznik 1999" do 
    @movie.release_date.should include("1999")
   end 

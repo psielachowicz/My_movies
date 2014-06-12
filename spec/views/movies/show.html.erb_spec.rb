@@ -29,9 +29,9 @@ before(:each) do
   it "wazne dane: status" do
     expect(@movie.status).to match("Released")
   end
-  it "id check" do
-    expect(@movie.id).to start_with(5)
-  end
+  #it "id check" do
+   # expect(@movie.id).to start_with(5)
+  #end
   it "test rasdzenia sobie z nilem" do
     expect(@movie.belongs_to_collection).to be_nil
   end
