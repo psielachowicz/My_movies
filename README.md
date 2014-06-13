@@ -1,7 +1,10 @@
 Aplikacja My_movies:
 Link do Heroku:
 
+http://glacial-basin-9021.herokuapp.com/
+
 Travis:
+
 [![Build Status](https://travis-ci.org/psielachowicz/My_movies.svg?branch=master)](https://travis-ci.org/psielachowicz/My_movies)
 
 - dodane testy kontrolerów (40) oraz widoków (10)
