@@ -8,9 +8,11 @@ Travis:
 [![Build Status](https://travis-ci.org/psielachowicz/My_movies.svg?branch=master)](https://travis-ci.org/psielachowicz/My_movies)
 
 - dodane testy kontrolerów (40) oraz widoków (10)
+testów jest więcej niż 50 działających lokalnie lecz część jest zakomentowana ze względu
+na problemy z travisem.
 - poprawki w wyświetlanym filmie: 
 przykładowo: jeśli budżet wynosi 000 lub nie został uzupełniony to nie jest wyświetlany
-- usprawnione wyszukiwanie
+- usprawnione wyszukiwanie wraz z dodanym przyciskiem do wyszukiwania.
 - dodane dane o aktorach wraz z odnośnikami do strony internetowej jeśli taką posiada
 
 Dlaczego aplikacja znajduje się na heroku a nie na shelly cloud?
